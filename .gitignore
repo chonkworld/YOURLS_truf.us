@@ -8,7 +8,10 @@
 [Rr]obots.txt
 
 # Ignore everything in user/
-user/*
+###user/*
+user/pages/
+user/languages/
+user/config.php
 # ... except config sample
 !user/config-sample.php
 # ... core plugins

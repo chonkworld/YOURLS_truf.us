@@ -1,3 +1,13 @@
+<!-- Google tag (gtag.js)
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-GBW8R6L5BW"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-GBW8R6L5BW');
+</script>
+Google tag -->
 <?php
 define( 'YOURLS_ADMIN', true );
 require_once( dirname( __DIR__ ).'/includes/load-yourls.php' );
