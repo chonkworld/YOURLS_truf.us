@@ -13,7 +13,8 @@ if( !defined( 'YOURLS_ABSPATH' ) ) die();
 // Make auth cookie life 1 mn (that is, user sessions will never last more)
 yourls_add_filter( 'get_cookie_life', 'ozh_cookie_life' );
 function ozh_cookie_life() {
-    return 60; // 1 mn, in seconds
+//    return 60; // 1 mn, in seconds
+    return 300; // 5 mn, in seconds
 }
 
 // Give auth cookie a unique and timebased name: append to the cookie name a nonce that will be valid just for the cookie life

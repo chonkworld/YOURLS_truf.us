@@ -57,7 +57,7 @@ if ( isset( $_REQUEST['url'] ) && $_REQUEST['url'] != 'https://' ) {
 yourls_html_head();
 
 // Display title
-echo "<h1>TRUF.US | Spittin' Truf Yo!</h1>\n";
+echo "<h1>TRUF.US | Spittin' TRUF Yo!</h1>\n";
 
 // Display left hand menu
 //yourls_html_menu() ;
@@ -92,6 +92,7 @@ if ( isset( $_REQUEST['url'] ) && $_REQUEST['url'] != 'https://' ) {
 		<p><label>Optional custom short URL: $site/<input type="text" class="text" name="keyword" /></label></p>
 		<p><label>Optional title: <input type="text" class="text" name="title" /></label></p>
 		-->
+		<p class="cf-turnstile" data-sitekey="0x4AAAAAAAwhabRTvVD3iN5A" data-callback="javascriptCallback"></p>
 		<p><input type="submit" class="button primary" value="Shorten" /></p>
 		</form>
 HTML;
