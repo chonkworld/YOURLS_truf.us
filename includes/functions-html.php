@@ -762,6 +762,7 @@ function yourls_login_screen( $error_msg = '' ) {
 				<label for="password"><?php yourls_e( 'Password' ); ?></label><br />
 				<input type="password" id="password" name="password" size="30" class="text" />
 			</p>
+			<p class="cf-turnstile" data-sitekey="0x4AAAAAAAwhabRTvVD3iN5A" data-callback="javascriptCallback"></p>
 			<?php
 				yourls_do_action( 'login_form_bottom' );
 			?>
