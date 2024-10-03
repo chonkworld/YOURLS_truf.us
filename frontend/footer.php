@@ -56,7 +56,8 @@
 </script>
 
 <?php if (enableRecaptcha) : ?>
-	<script src="https://www.google.com/recaptcha/api.js?render=<?php echo recaptchaV3SiteKey ?>"></script>
+	<!-- Michael <script src="https://www.google.com/recaptcha/api.js?render=<?php echo recaptchaV3SiteKey ?>"></script> -->
+	<script src="https://challenges.cloudflare.com/turnstile/v0/api.js?compat=recaptcha" async defer></script>
 	<script>
 		const shortenForm = document.querySelector("form#shortenlink");
 

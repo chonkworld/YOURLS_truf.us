@@ -21,7 +21,7 @@
 			
 			// call curl to POST request
 			$ch = curl_init();
-			curl_setopt($ch, CURLOPT_URL,"https://www.google.com/recaptcha/api/siteverify");
+			curl_setopt($ch, CURLOPT_URL,"https://challenges.cloudflare.com/turnstile/v0/siteverify");
 			curl_setopt($ch, CURLOPT_POST, 1);
 			curl_setopt($ch, CURLOPT_POSTFIELDS, http_build_query(array('secret' => recaptchaV3SecretKey, 'response' => $token)));
 			curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
@@ -98,7 +98,7 @@
 						</div>
 					<?php else: ?>
 						<div class="text-center">
-						<!-- Michael	<img src="<?php echo YOURLS_SITE ?><?php echo logo ?>" alt="Logo" width="95px" class="mt-n5"> -->
+						<img src="<?php echo YOURLS_SITE ?><?php echo logo ?>" alt="Logo" width="95px" class="mt-n5">
 						</div>
 						<div class="card-body px-md-5">
 							<p><?php echo description ?></p>

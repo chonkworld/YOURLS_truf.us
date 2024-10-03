@@ -17,9 +17,9 @@
         <meta http-equiv="X-UA-patible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="<?php echo description ?>">
-	<!-- Michael
-	<link rel="icon" href="<?php echo favicon ?>">
-	-->	
+
+    	<link rel="icon" href="<?php echo favicon ?>">
+	
 
         <title><?php echo title ?></title>
 
