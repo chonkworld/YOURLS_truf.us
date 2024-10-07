@@ -6,7 +6,8 @@
 
   gtag('config', 'G-GBW8R6L5BW');
 </script>
-
+<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-1377801524509737"
+     crossorigin="anonymous"></script>
 <?php
     include 'config.php';
     include 'functions.php';
