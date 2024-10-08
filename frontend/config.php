@@ -50,7 +50,7 @@ define('colour', '#35063e');
 // The array follows a title link structure:
 // "TITLE" => "LINK",
 $footerLinks = [
-    //"About"   =>  "https://sleeky.flynntes.com/",
+    "Privacy Policy"   =>  "/privacy.php",
     //"Contact" =>  "https://yourls.org/",
     //"Legal"   =>  "https://yourls.org/",
     //"Admin"   =>  "/admin"
