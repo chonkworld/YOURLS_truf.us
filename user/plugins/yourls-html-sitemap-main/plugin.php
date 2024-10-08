@@ -32,10 +32,13 @@ function generate_html_sitemap() {
         $html = '<!DOCTYPE html>';
         $html .= '<html>';
         $html .= '<head>';
-        $html .= '<title>YOURLS HTML Sitemap</title>';
+        $html .= '<title>TRUF HTML Sitemap</title>';
+        $html .= '<link rel="stylesheet" href="/frontend/dist/styles.css">';
+#        $html .= '<script async src="https://www.googletagmanager.com/gtag/js?id=G-GBW8R6L5BW"></script>';
+#        $html .= '<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-GBW8R6L5BW');</script>';
         $html .= '</head>';
         $html .= '<body>';
-        $html .= '<h1>YOURLS HTML Sitemap</h1>';
+        $html .= '<h1>TRUF HTML Sitemap</h1>';
         $html .= '<ul>';
 
         // Check if the 'private' column exists in the YOURLS database table
