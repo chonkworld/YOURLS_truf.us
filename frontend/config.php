@@ -35,8 +35,8 @@ define('enableCustomURL', false);
 // Optional
 // Set a primary colour to be used. Default: #007bff
 // Here are some other colours you could try:
-// #f44336: red, #9c27b0: purple, #00bcd4: teal, #ff5722: orange
-define('colour', '#007bff');
+// #f44336: red, #9c27b0: purple, #00bcd4: teal, #ff5722: orange, #007bff: default
+define('colour', '#35063e');
 
 // Optional
 // Set a background image to be used.
