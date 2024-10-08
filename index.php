@@ -135,7 +135,7 @@
 					<?php endif; ?>
 				</div>
 				<div class="d-flex flex-column flex-md-row align-items-center my-3">
-					<span class="text-white fw-light">&copy; <?php echo date("Y"); ?> <?php echo shortTitle ?></span>
+					<span class="text-white fw-light">&copy; 2011 - <?php echo date("Y"); ?> <?php echo shortTitle ?></span>
 					<div class="ms-3">
 						<?php foreach ($footerLinks as $key => $val): ?>
 							<a class="bold-link me-3 text-white text-decoration-none" href="<?php echo $val ?>"><span><?php echo $key ?></span></a>
