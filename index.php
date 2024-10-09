@@ -138,7 +138,7 @@
 					<span class="text-white fw-light">&copy; 2011 - <?php echo date("Y"); ?> <?php echo shortTitle ?></span>
 					<div class="ms-3">
 						<?php foreach ($footerLinks as $key => $val): ?>
-							<a class="bold-link me-3 text-white text-decoration-none" href="<?php echo $val ?>"><span><?php echo $key ?></span></a>
+							<a class="bold-link me-3 text-white text-decoration-none" href="<?php echo $val ?>" target="_blank"><span><?php echo $key ?></span></a>
 						<?php endforeach ?>
 					</div>
 				</div>
