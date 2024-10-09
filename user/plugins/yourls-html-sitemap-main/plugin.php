@@ -1,4 +1,6 @@
 <?php
+require_once '../includes/load-yourls.php';
+include '../../../frontend/header.php';
 /*
 Plugin Name: YOURLS HTML Sitemap Generator
 Plugin URI: https://github.com/SophiaAtkinson/yourls-html-sitemap
@@ -35,9 +37,15 @@ function generate_html_sitemap() {
         $html .= '<title>TRUF HTML Sitemap</title>';
         $html .= '<link rel="stylesheet" href="/frontend/dist/styles.css">';
 #        $html .= '<script async src="https://www.googletagmanager.com/gtag/js?id=G-GBW8R6L5BW"></script>';
-#        $html .= '<script>window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-GBW8R6L5BW');</script>';
+#        $html .= '<script>window.dataLayer = window.dataLayer || []; 
+#        $html. = function gtag(){dataLayer.push(arguments);
+#        $html. = } gtag('js', new Date());
+#        $html. = gtag('config', 'G-GBW8R6L5BW');
+#        $html. = </script>';
         $html .= '</head>';
-        $html .= '<body>';
+        $html .= '<style>body {background-color: #35063e;}</style>';
+        $html .= '<style>h1 {color: white;}</style>';
+        $html .= '<style>ul {color: white;}</style>';
         $html .= '<h1>TRUF HTML Sitemap</h1>';
         $html .= '<ul>';
 
@@ -72,6 +80,7 @@ function generate_html_sitemap() {
             $html .= '<a href="' . $shorturl . '">' . $shorturl . '</a>';
             $html .= ' - ' . $longurl . ' - Last Modified: ' . $timestamp;
             $html .= '</li>';
+            $html .= '<br/>';
         }
 
         // Close the HTML
