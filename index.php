@@ -143,6 +143,12 @@
 						<?php endforeach ?>
 					</div>
 				</div>
+				<div class="d-flex flex-column flex-md-row align-items-center my-3" style="padding-top: 50px;">
+					<span class="text-white fw-light">Would you like to Sponser?</span>
+					<div class="ms-3">
+						<span class="bold-link me-3 text-white">Imagine Your Link Here!</span></a>
+					</div>
+				</div>
 			</div>
 		</div>
 	</div>

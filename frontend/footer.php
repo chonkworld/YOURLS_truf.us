@@ -86,7 +86,7 @@
 	</script>
 <?php endif; ?>
 
-<!-- Google AdSense - truf.us -->
+<!-- Google AdSense - truf.us
 <ins class="adsbygoogle"
    	style="display:block"
    	data-ad-client="ca-pub-1377801524509737"
@@ -97,3 +97,4 @@
 <script>
      	(adsbygoogle = window.adsbygoogle || []).push({});
 </script>
+-->

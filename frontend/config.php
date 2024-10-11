@@ -50,8 +50,9 @@ define('colour', '#35063e');
 // The array follows a title link structure:
 // "TITLE" => "LINK",
 $footerLinks = [
-    "Buy Me a Coffee" =>  "https://www.buymeacoffee.com/truf/",
-    "Privacy Policy"   =>  "/privacy.php",
+    "Buy Me a Coffee"   =>  "https://www.buymeacoffee.com/truf/",
+    "Privacy Policy"    =>  "/privacy.php",
+    "MichaelR.xyz"      =>  "https://michaelr.xyz?utm_source=truf&utm_medium=website&utm_id=link"
     //"Legal"   =>  "https://yourls.org/",
     //"Admin"   =>  "/admin"
 ];
