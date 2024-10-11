@@ -92,7 +92,8 @@
 										<input type="text" class="form-control text-uppercase" value="<?php echo $shorturl; ?>" required>
 										<button class="btn btn-primary text-uppercase py-2 px-5 mt-2 mt-md-0" type="submit" id="copy-button" data-shorturl="<?php echo $shorturl; ?>">Copy</button>
 									</div>
-									<span class="info">View info &amp; stats at <a href="<?php echo $shorturl; ?>+"><?php echo $url; ?>+</a></span>
+									<!-- Michael <span class="info">View info &amp; stats at <a href="<?php echo $shorturl; ?>+"><?php echo $url; ?>+</a></span> -->
+									<span class="info">Want a QR Code!? Click here: <a href="<?php echo $shorturl; ?>.qr" style='color: #71797E; text-decoration: underline;' target="_blank"><?php echo $shorturl; ?>.qr</a></span>
 								</div>
 							</div>
 						</div>
