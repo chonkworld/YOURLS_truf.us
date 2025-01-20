@@ -147,6 +147,7 @@
 					<span class="text-white fw-light">Would you like to Sponser?</span>
 					<div class="ms-3">
 						<span class="bold-link me-3 text-white"><a class="bold-link me-3 text-white text-decoration-none" href="mailto:marketing@truf.us">Imagine Your Link Here!</span></a>
+						<span class="bold-link me-3 text-white"><a class="bold-link me-3 text-white text-decoration-none" href="https://zirytech.com?utm_source=truf&utm_medium=website&utm_id=link" target="_blank">ZiryTech</
 						<span class="bold-link me-3 text-white"><a class="bold-link me-3 text-white text-decoration-none" href="https://michael.ong?utm_source=truf&utm_medium=website&utm_id=link" target="_blank">MICHAEL.ong</span></a>
 					</div>
 				</div>
