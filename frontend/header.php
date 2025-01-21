@@ -22,7 +22,7 @@
     	<link rel="icon" href="<?php echo favicon ?>">
 	
 
-        <title><?php echo title ?></title>
+        <title>TRUF.us | Spittin TRUF</title>
 
         <link rel="stylesheet" href="/frontend/dist/styles.css">
 
